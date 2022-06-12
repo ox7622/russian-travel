@@ -3,10 +3,8 @@
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
-    box-sizing: border-box;
     row-gap: 16px;
     column-gap: 16px;
-    box-sizing: border-box;
 }
 
 @media screen and (max-width:1140px) {
