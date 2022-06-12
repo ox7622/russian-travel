@@ -15,6 +15,7 @@
     text-decoration: none;
     z-index: 1;
     position: relative;
+    margin-bottom: 92px;
 }
 
 .cover__background::before {
@@ -48,11 +49,17 @@
     transition: opacity .5s ease-in-out;
 }
 
+@media screen and (max-width:984px) {
+    .cover__background {
+        margin-bottom: 88px;
+    }
+}
+
 @media screen and (max-width:568px) {
     .cover__background {
         width: 100%;
         min-width: 320px;
         min-height: 200px;
-        margin: 2px 0 0;
+        margin: 2px 0 64px 0;
     }
 }
