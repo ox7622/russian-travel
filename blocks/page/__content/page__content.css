@@ -1,12 +1,5 @@
 .page__content {
    width: 100%;
    margin: 0;
-   padding: 28px 0 24px;
    box-sizing: border-box;
-}
-
-@media screen and (max-width: 568px) {
-   .page__content {
-       padding: 16px 0 24px;
-   }
 }
