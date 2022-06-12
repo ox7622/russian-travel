@@ -1,0 +1,16 @@
+.header__logo {
+    background-image: url(../../../images/__logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 176px;
+    height: 52px;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 568px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+}

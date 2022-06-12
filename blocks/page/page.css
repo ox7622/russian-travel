@@ -1,0 +1,12 @@
+.page {
+    background-color: #2A2C2F;
+    color: #ffff;
+    max-width: 1280px;
+    min-width: 320px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+    margin: 0;
+}

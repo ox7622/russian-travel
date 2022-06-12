@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:568px) {
+    .footer {
+        flex-direction: column;
+    }
+}

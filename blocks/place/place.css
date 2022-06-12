@@ -1,0 +1,17 @@
+.place {
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(min-width, max-width));
+    row-gap: 48px;
+    column-gap: 40px;
+}
+
+@media screen and (max-width:568px) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(min-width, max-width);
+        row-gap: 32px;
+    }
+}
