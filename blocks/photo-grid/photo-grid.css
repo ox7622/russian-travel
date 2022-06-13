@@ -5,6 +5,9 @@
     width: 100%;
     row-gap: 16px;
     column-gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 @media screen and (max-width:1140px) {

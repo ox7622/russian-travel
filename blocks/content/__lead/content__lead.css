@@ -1,0 +1,18 @@
+.content__lead {
+    padding: 0 148px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media screen and (max-width:1140px) {
+    .content__lead {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width:984px) {
+    .content__lead {
+        padding: 0px;
+    }
+}

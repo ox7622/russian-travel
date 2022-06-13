@@ -36,15 +36,21 @@
     transition: opacity .5s ease-in-out;
 }
 
+@media screen and (max-width:1140px) {
+    .cover__background {
+        min-height: 640px;
+    }
+}
+
 @media screen and (max-width:984px) {
     .cover__background {
         margin-bottom: 88px;
+        min-height: 480px;
     }
 }
 
 @media screen and (max-width:568px) {
     .cover__background {
-        width: 100%;
         min-width: 320px;
         min-height: 200px;
         margin: 2px 0 64px 0;

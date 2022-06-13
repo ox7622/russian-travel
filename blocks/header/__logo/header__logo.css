@@ -14,3 +14,7 @@
         height: 42px;
     }
 }
+
+.header__logo:hover {
+    opacity: .8;
+}

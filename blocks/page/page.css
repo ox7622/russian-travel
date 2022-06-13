@@ -8,7 +8,7 @@
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: grayscale;
-    margin: 0;
+    margin: 0 auto;
     padding: 28px 0 24px;
 }
  

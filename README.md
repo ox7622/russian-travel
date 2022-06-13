@@ -6,6 +6,7 @@
 
 **Интро**
 Проект сверстан адаптивно desktop first для всех вариантов размеров устройств.
+Страница выложен на Gh pages - https://ox7622.github.io/russian-travel/
 
 **Figma**
 

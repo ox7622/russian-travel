@@ -8,6 +8,7 @@
     max-width: 720px;
     text-align: center;
     box-sizing: border-box;
+    color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: grayscale;
 }
@@ -32,11 +33,5 @@
     .lead__title {
         font-size: 40px;
         max-width: 288px;
-    }
-}
-
-@media screen and (max-width:330px) {
-    .lead__title {
-        font-size: 35px;
     }
 }
