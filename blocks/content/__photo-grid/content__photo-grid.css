@@ -1,5 +1,6 @@
 .content__photo-grid {
     padding: 0 48px;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width:984px) {

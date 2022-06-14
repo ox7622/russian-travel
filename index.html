@@ -14,10 +14,10 @@
 <body class="page">
     <header class="header page__header">
         <a href="#" class="header__logo"></a>
-        <div>
-            <a href="#" class="header__lang-link header__lang-link_active" target="_blank">Ru</a>
-            <a href="#" class="header__lang-link" target="_blank">En</a>
-        </div>
+        <ul class="header__lang-links">
+            <li><a href="#" class="header__lang-link header__lang-link_active" target="_blank">Ru</a></li>
+            <li><a href="#" class="header__lang-link" target="_blank">En</a></li>
+        </ul>
     </header>
     <main class="content page__content">
         <section class="lead content__lead">
@@ -37,38 +37,34 @@
                 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего
                 отпуска.</p>
             <ul class="intro__list">
-                <li><span class="intro__list intro__list_span_bold">Часовых поясов</span> 11</li>
-                <li><span class="intro__list intro__list_span_bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
-                <li><span class="intro__list intro__list_span_bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-                <li><span class="intro__list intro__list_span_bold">Природных заповедников</span> 105</li>
-                <li><span class="intro__list intro__list_span_bold">Аэропортов</span> 241</li>
+                <li><span class="intro__list intro__bold">Часовых поясов</span> 11</li>
+                <li><span class="intro__list intro__bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                <li><span class="intro__list intro__bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                <li><span class="intro__list intro__bold">Природных заповедников</span> 105</li>
+                <li><span class="intro__list intro__bold">Аэропортов</span> 241</li>
             </ul>
         </section>
-        <ul class="photo-grid content__photo-grid">
-            <li><img class="photo-grid__item" src="./images/photo-grid-train_1.jpg"
-                    alt="картинка с видом из окна вагона поезда"></li>
-            <li><img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi_2.jpg"
-                    alt="картинка с горами в снегу вид сверху"></li>
-            <li><img class="photo-grid__item" src="./images/photo-grid-tuman_3.jpg"
-                    alt="картинка со стогами сена в тумане"></li>
-            <li><img class="photo-grid__item" src="./images/photo-grid-sochi_4.jpg"
-                    alt="картинка с лесом в тумане, вид сверу"></li>
-            <li><img class="photo-grid__item" src="./images/photo-grid-arisa_5.jpg"
-                    alt="картинка с колесом машины на льду байкала"></li>
-            <li><img class="photo-grid__item" src="./images/photo-grid-baikal_6.jpg" alt="картинка с берегомбайкала">
-            </li>
-            <li><img class="photo-grid__item" src="./images/photo-grid-elbrus_7.jpg" alt="картинка с горами"></li>
-            <li><img class="photo-grid__item" src="./images/photo-grid-kondratiev_8.jpg" alt="картинка с волнорезами">
-            </li>
-            <li><img class="photo-grid__item" src="./images/photo-grid-kamchatka_9.jpg"
-                    alt="картинка с горами в тумане сверху"></li>
-            <li><img class="photo-grid__item" src="./images/photo-grid-kamchatka_10.jpg"
-                    alt="картинка с вулканом на камчатке"></li>
-            <li><img class="photo-grid__item" src="./images/photo-grid-baikal_11.jpg"
-                    alt="картинка с берегом байкала и пляжем"></li>
-            <li><img class="photo-grid__item" src="./images/photo-grid-ergaki_12.jpg" alt="картинка с горами в тумане">
-            </li>
-        </ul>
+        <div class="photo-grid content__photo-grid">
+            <img class="photo-grid__item" src="./images/photo-grid-train_1.jpg"
+                alt="картинка с видом из окна вагона поезда">
+            <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi_2.jpg"
+                alt="картинка с горами в снегу вид сверху">
+            <img class="photo-grid__item" src="./images/photo-grid-tuman_3.jpg" alt="картинка со стогами сена в тумане">
+            <img class="photo-grid__item" src="./images/photo-grid-sochi_4.jpg"
+                alt="картинка с лесом в тумане, вид сверу">
+            <img class="photo-grid__item" src="./images/photo-grid-arisa_5.jpg"
+                alt="картинка с колесом машины на льду байкала">
+            <img class="photo-grid__item" src="./images/photo-grid-baikal_6.jpg" alt="картинка с берегомбайкала">
+            <img class="photo-grid__item" src="./images/photo-grid-elbrus_7.jpg" alt="картинка с горами">
+            <img class="photo-grid__item" src="./images/photo-grid-kondratiev_8.jpg" alt="картинка с волнорезами">
+            <img class="photo-grid__item" src="./images/photo-grid-kamchatka_9.jpg"
+                alt="картинка с горами в тумане сверху">
+            <img class="photo-grid__item" src="./images/photo-grid-kamchatka_10.jpg"
+                alt="картинка с вулканом на камчатке">
+            <img class="photo-grid__item" src="./images/photo-grid-baikal_11.jpg"
+                alt="картинка с берегом байкала и пляжем">
+            <img class="photo-grid__item" src="./images/photo-grid-ergaki_12.jpg" alt="картинка с горами в тумане">
+        </div>
         <section class="places content__places">
             <div class="place">
                 <h2 class="place__title">Куршская коса</h2>
