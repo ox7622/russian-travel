@@ -1,8 +1,7 @@
-
 .photo-grid {
     padding: 0 48px;
     box-sizing: border-box;
-    width: 100%
+    width: 100%;
 }
 
 @media screen and (max-width:984px) {
